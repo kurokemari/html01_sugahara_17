@@ -1,0 +1,30 @@
+#title {
+  width: 800px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+#map {
+  width: 800px;
+  height: 400px;
+}
+
+#pin {
+  display: flex;
+  width: 800px;
+  background-color: rgba(138, 117, 117, 0.705);
+}
+
+#pin p {
+  width: 33%;
+}
+
+#pin p h1 {
+  width: 100%;
+}
+
+#pin p img {
+  width: 100%;
+  height: auto;
+}

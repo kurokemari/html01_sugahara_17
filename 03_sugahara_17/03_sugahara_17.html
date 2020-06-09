@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css.css" />
+    <title>BohBohBoh</title>
+  </head>
+  <body>
+    <div id="title">BohBohBoh</div>
+    <div id="detail">どの種類のピンを立てるか選んでからマップをクリックすると、そこにご希望のピンが刺さる（ようにしたい！）<br>
+    課題：どのラジオボタンが選択されたかを取得し、取得した内容によって刺すピンの画像を変える<br>
+  課題：以前刺したピンをリロードしても刺してある状態にする<br>
+  （keyとvalueから値取得したいけど？？）<br>
+</div>
+    <div id="map"></div>
+    <form id="pin">
+      <div id="inshoku">
+        <p><h1 class="name">飲食店</h1></p>
+        <p><img class="flag" src="img/inshoku.png" alt=""></p>
+        <p><input type="radio" name="choosename" id="choose" value="choose_inshoku"></p>
+      </div>
+      <div id="powerspot">
+        <p><h1 class="name">パワースポット</h1></p>
+        <p><img class="flag" src="img/powerspot.png" alt=""></p>
+        <p><input type="radio" name="choosename" id="choose" value="choose_powerspot"></p>
+      </div>
+      <div id="dog">
+        <p><h1 class="name">犬OK</h1></p>
+        <p><img class="flag" src="img/dog.png" alt=""></p>
+        <p><input type="radio" name="choosename" id="choose" value="choose_dog"></p>
+      </div>
+    </form>
+
+    <div class="footer">
+      <footer></footer>
+    </div>
+
+    <script
+      src="https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[AkjF30aqbV5cEjEAxuMd7ockeor3Bh5lrCsZb7OVpZZL_oNabnqkz4iEn7KzzLez]"
+      async
+      defer
+    ></script>
+    <script src="js.js"></script>
+  </body>
+</html>
