@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>php課題</title>
+    <!-- デフォルトのスタイルを消去するreset.css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- この↓に記述 -->
+
+    <div class="maeoki">
+      <marquee behavior="scroll" direction="up" loop="1" height="600">
+        <p class="text">古代都市が敵の手によって復活してしまった。</p>
+        <p class="text">このままでは世界から笑顔が消えてしまう・・・</p>
+        <p class="text">こうなったら、古くから伝わるあの呪文で</p>
+        <p class="text">全てを終わらせるしかないのか・・・</p>
+        <p class="text">全てを背負う覚悟の 震える彼女の手に</p>
+        <p class="text">僕は自分の手を重ねた。</p>
+        <p class="text">吸い込んだ息に 世界平和の願いを込めて 僕らは・・・</p>
+      </marquee>
+    </div>
+
+    <form class="button" method="POST" action="php/php.php">
+      <input type="hidden" name="answer" value="jumon" />
+      <input
+        type="submit"
+        value="呪文を唱える"
+        id="button"
+        class="button__jumon"
+      />
+    </form>
+
+    <!-- この↑に記述 -->
+  </body>
+</html>

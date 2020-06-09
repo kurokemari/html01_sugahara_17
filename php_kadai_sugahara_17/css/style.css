@@ -1,0 +1,75 @@
+.maeoki {
+  background: url("../img/00.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.text {
+  padding-top: 100px;
+  font-family: monospace;
+  font-size: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.795);
+  text-shadow: 1px 2px 3px black;
+}
+
+form {
+  text-align: center;
+  opacity: 0;
+  animation-name: jumon;
+  animation-duration: 5s;
+  animation-delay: 20s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes jumon {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* .button__jumon { */
+form {
+  background-image: url("../img/01.jpeg");
+  font-family: monospace;
+  width: 300px;
+  height: 100px;
+  color: azure;
+  text-shadow: 0 0 10px white, 0 0 15px white;
+  font-size: 30px;
+  letter-spacing: 3px;
+  border-radius: 45px;
+  box-shadow: 10px 7px aqua;
+  margin: auto;
+}
+
+input[type="submit" i] {
+  background-image: url("../img/01.jpeg");
+  font-family: monospace;
+  width: 300px;
+  height: 100px;
+  color: azure;
+  text-shadow: 0 0 10px white, 0 0 15px white;
+  font-size: 30px;
+  letter-spacing: 3px;
+  border-radius: 45px;
+  box-shadow: 10px 7px aqua;
+  margin: auto;
+}
+
+/* .button__jumon :hover button { */
+form :hover {
+  color: white;
+  letter-spacing: 10px;
+  transition: 2s;
+  top: 10px;
+}
+
+/* .button__jumon :active button { */
+form :active {
+  color: bisque;
+  transition-duration: 0.1s;
+}
