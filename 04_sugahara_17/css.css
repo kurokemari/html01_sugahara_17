@@ -1,0 +1,81 @@
+#title {
+  width: 800px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+#map {
+  width: 800px;
+  height: 400px;
+}
+
+#category {
+  display: flex;
+  width: 800px;
+  background-color: rgba(138, 117, 117, 0.705);
+}
+h1 {
+  font-size: 25px;
+  text-align: center;
+  width: 33%;
+  margin-block-end: 0;
+}
+
+#flag {
+  display: flex;
+  width: 800px;
+  background-color: rgba(138, 117, 117, 0.705);
+}
+#flag p {
+  text-align: center;
+}
+
+#flag p input {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+#pin {
+  display: flex;
+  width: 800px;
+  background-color: rgba(138, 117, 117, 0.705);
+}
+
+#pin p {
+  width: 33%;
+}
+
+#button {
+  display: flex;
+  width: 800px;
+  background-color: rgba(138, 117, 117, 0.705);
+  text-align: center;
+}
+
+.button_area {
+  width: 100%;
+  text-align: center;
+}
+
+#texts {
+  display: flex;
+  width: 800px;
+  background-color: rgba(138, 117, 117, 0.705);
+}
+
+#text p {
+  text-align: center;
+  width: 33%;
+}
+
+#list {
+  width: 800px;
+  background-color: rgba(138, 117, 117, 0.705);
+}
+
+#list p {
+  text-align: center;
+  width: 33%;
+}
