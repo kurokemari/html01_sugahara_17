@@ -1,0 +1,14 @@
+1.UPDATEを使ってユニーク値「7」の書籍名を"RB"に変更する
+UPDATE gs_bm_table SET name="RB" WHERE id=7;
+
+2.UPDATEを使ってユニーク値「3,9」の書籍名を"PY"に変更する
+UPDATE gs_bm_table SET name="PY" WHERE id=3 OR id=9;
+
+3.UPDATEを使ってユニーク値「6~8」の登録にちじを現在時刻に変更する
+UPDATE gs_bm_table SET indate=sysdate() WHERE id>=6 AND id<=8;
+
+4.UPDATEを使って書籍名「JS本」の書籍名を「PHP＆JS」に変更する
+UPDATE gs_bm_table SET name="PHP&JS" WHERE name="JS本";
+
+5.UPDATEを使って書籍コメントが入っていないレコードがあれば書籍コメントを「未入力」と変更する
+UPDATE gs_bm_table SET comment="未入力" WHERE comment="";

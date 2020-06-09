@@ -1,0 +1,20 @@
+【課題１】仕様書作成
+
+テーブル名：gs_user_table
+
+カラム：
+1. id int 12, PRIMARYKEY, aoutIncrement
+2. name varchar 64
+3. userID varchar 128
+4. pass varchar 30
+5. FLG bit 1, デフォルト値：０
+
+
+
+【課題３】SELECT文作成
+1.ユーザーIDとパスワードとライフフラグで抽出し表示させる
+SELECT * FROM gs_user_table WHERE userID="test01" AND pass="test01" AND FLG=0;
+
+2.ユーザーIDとパスワードとライフフラグで抽出し件数を表示させる
+SELECT COUNT(*) FROM gs_user_table WHERE userID="test01" AND pass="test01" AND FLG=0;
+SELECT COUNT(*) FROM gs_user_table WHERE userID=pass AND FLG=0;

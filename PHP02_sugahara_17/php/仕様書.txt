@@ -1,0 +1,16 @@
+index.php
+・会員登録　　：MyAdmin内
+　名前　　　　：name     varchar(64)
+　ユーザーID　：userID   varchar(64)
+　パスワード　：password text
+　Email　　　：email    varchar(128)
+　＊ユニークID：id       int(12) PrimaryKey AutoIncrement
+　＊登録日時　：indate   datetime
+　＊ライフFLG：FLG      int(1) デフォルト値:0
+登録ボタンを押すとinsert.phpを経由しこれらの情報がMyAdminに登録される。
+
+・退会
+　ユーザーID
+　パスワード
+退会ボタンを押すとupdate.phpを経由して上記の情報と合致するもののFLGカラムを１にする。
+（FLGが１のユーザーは退会済みと判断する）
